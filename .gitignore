@@ -1,0 +1,24 @@
+# Common CA-related files
+*.pem
+*.crt
+*.csr
+*.cnf
+*.key
+*.pub
+openssl.conf
+index.txt
+index.txt.old
+serial
+crlnumber
+
+# Common CA directories
+**/certs/**
+**/conf/**
+**/crl/**
+**/csr/**
+**/private/**
+**/newcerts/**
+
+# Fiefdom-CA config files
+certificate_authority.conf
+crt_deploy.ini
