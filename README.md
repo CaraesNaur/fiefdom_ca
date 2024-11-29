@@ -211,6 +211,7 @@ The scripts `ca_setup.sh` and `depmgr.sh` create several additional directories 
   * `csr/`: Stores CSR files made by hosts
   * `private/`: Host keys are kept here
 
+These all are, or contain, sensitive files that should not be distributed on public systems.  The bulk of this project's `.gitignore` is intended to prevent unintentional distribution.
 
 ## Script Documentation
 
